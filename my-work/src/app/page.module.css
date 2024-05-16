@@ -1,0 +1,182 @@
+.body {
+  width: 93%;
+  margin: auto;
+  /* background-color: aqua; */
+  padding: 0px 15px;
+  /* gap: 20px; */
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: gold; */
+  width: 100%;
+}
+
+.booking {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  border: 1px solid gray;
+  outline: none;
+  width: 32%;
+  border-radius: 8px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.manageInfo:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 20px;
+}
+
+.busInfo:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 20px;
+}
+
+.helpInfo:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 20px;
+}
+
+.manageInfo {
+  padding: 22px 0px;
+}
+
+.helpInfo {
+  padding: 24px 0px;
+}
+
+.divid {
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  margin: 50px 0px;
+}
+
+.learnInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.learnMore,
+.confort {
+  width: 25%;
+  align-items: center;
+  padding: 12px;
+  line-height: 1.5rem;
+}
+
+.learnMore {
+  margin-bottom: 38px;
+}
+
+.learntext,
+.subLearn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subLearn {
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 8px 0px;
+}
+
+.subLearn:hover {
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.644);
+  border: 2px solid skyblue;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.confort,
+.satisfied {
+  margin-bottom: 24px;
+}
+
+.satisfied,
+.greenChoice {
+  width: 25%;
+  align-items: center;
+  padding: 12px;
+  line-height: 1.5rem;
+}
+
+.icon {
+  margin-left: 45%;
+}
+
+.location {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+.location:hover {
+  box-shadow: 0 5px 20px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.map {
+  width: 40%;
+  margin: 0px 4px;
+}
+
+.sunMap {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 2px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.sunMap:hover {
+  background-color: rgba(240, 248, 255, 0.644);
+  border: 2px solid skyblue;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.speach {
+  /* background-color: pink; */
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speachtext {
+  width: 90%;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 12px 0px;
+}

@@ -1,0 +1,215 @@
+.main {
+  overflow: hidden;
+}
+
+.head {
+  background-color: rgb(17, 17, 48);
+  width: 100%;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.contain {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* background-color: pink; */
+  padding: 12px 8px;
+}
+
+.login {
+  width: 95%;
+  flex-direction: column;
+  display: flex;
+  padding: 15px 5px;
+  /* background-color: blue; */
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.step1 {
+  display: flex;
+  height: 50%;
+  /* background-color: aqua; */
+  padding: 7px 10px;
+  margin-bottom: 5px;
+}
+
+.num {
+  background-color: gold;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.step1Text {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form,
+.seat {
+  height: 50%;
+  /* background-color: pink; */
+  display: flex;
+}
+
+.first,
+.last {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  margin: 5px 15px;
+}
+
+.last {
+  margin-left: 50px;
+}
+
+.first input {
+  padding: 7px;
+  padding-left: 30px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.last input {
+  padding: 7px;
+  padding-left: 30px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.firsttext {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.input {
+  outline: none;
+  border: 2px solid gray;
+}
+
+.seat {
+  /* background-color: aqua; */
+  gap: 20px;
+  padding: 20px 12px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.selectSeat {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra {
+  height: 50%;
+  /* background-color: pink; */
+  display: flex;
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: black; */
+  /* width: 100%; */
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.extra {
+  /* padding: 10px; */
+  margin: 10px;
+}
+
+.bagage,
+.bulky {
+  /* background-color: aqua; */
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  gap: 20px;
+  border: 1px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.bagageImg {
+  /* background-color: gold; */
+  margin: 10px;
+}
+
+.bagageText {
+  line-height: 1.5rem;
+  font-size: 16px;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.bulky {
+  border: none;
+  padding: 15px 0px;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+
+.mix {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bulkyLogo{
+  margin-left: 30px;
+}
+
+.cal {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  /* background-color: aqua; */
+}
+
+.number{
+  width: 60px;
+  height: 50px;
+  /* background-color: blue; */
+  text-align: center;
+  padding-top: 12px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.number:hover{
+  background-color: whitesmoke;
+  color: gray;
+}
+
+.header{
+  margin-bottom: 13px;
+  font-size: 20px;
+  font-weight: 500;
+}
